@@ -1,6 +1,7 @@
-[package]
-name = "rust-gb"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+resolver = "2"
 
-[dependencies]
+members = [
+    "gb_emu_lib",
+    "rustboy"
+]
