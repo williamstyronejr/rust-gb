@@ -1,0 +1,16 @@
+[package]
+name = "rustboy"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+
+[dependencies]
+cpal = "0.15.3"
+egui = "0.29.1"
+egui_wgpu_backend = "0.30.0"
+egui_winit_platform = "0.23.0"
+epi = "0.17.0"
+pollster = "0.3.0"
+serde = "1.0.210"
+wgpu = "22.1.0"
+winit = "0.30.5"
