@@ -7,6 +7,7 @@ resolver = "2"
 [dependencies]
 cpal = "0.15.3"
 egui = "0.29.1"
+egui-winit = "0.29.1"
 egui_wgpu_backend = "0.30.0"
 egui_winit_platform = "0.23.0"
 epi = "0.17.0"
